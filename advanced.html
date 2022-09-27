@@ -4,9 +4,153 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Project0/styles.css">
     <title>Advanced Search</title>
 </head>
 <body>
-    
+    <header class="advanced-header-wrapper">
+        <div class="logo-left">
+            <a class="logo-left" aria-label="Go to Google Home" href="/Project0/index.html" title="Go to Google Home">
+                <span class="advanced-logo" aria-hidden="true" role="presentation">
+                </span>
+            </a>
+        </div>
+        <div class="navbar">
+                <form action="/Project0/index.html" class="nav-button-wrapper">
+                    <input type="submit" value="Google Search" class="nav-button">
+                </form>
+                <form action="/Project0/image.html" class="nav-button-wrapper">
+                    <input type="submit" value="Image Search" class="nav-button">
+                </form>
+            
+        </div>
+
+    </header>
+    <h2 class="advanced-heading-text">Advanced Search</h2>
+    <div class="line"></div>
+    <form class="advanced-form">
+            <div class="subheading">
+                <h4>Find pages with...</h4>
+            </div>
+            <div class="form-container-top">
+                <div class="form-labels">
+                    <div class="form-label">
+                        <label>all these words:</label>
+                    </div>
+                    <div class="form-label">
+                        <label>this exact word or phrase:</label>
+                    </div>
+                    <div class="form-label">
+                        <label>any of these words:</label>
+                    </div>
+                    <div class="form-label">
+                        <label>none of these words:</label>
+                    </div>
+                    <div class="form-label">
+                        <label>numbers ranging from:</label>
+                    </div>
+                </div>
+                <div class="form-searchbars">
+                    <div>
+                        <input class="form-searchbar" type="text" name="as_q">                    
+                    </div>
+                    <div>
+                        <input class="form-searchbar" type="text" name="as_q">
+                    </div>
+                    <div>
+                        <input class="form-searchbar" type="text" name="as_q">
+                    </div>
+                    <input class="form-searchbar" id="last-searchbar" type="text" name="as_q">
+                    <div>
+                        <div class="form-searchbars-small">
+                            <input class="form-searchbar-small" type="text" name="as_q">
+                            <span class="to">to</span>
+                            <input class="form-searchbar-small" type="text" name="as_q">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="line-middle line"></div>
+            <div class="subheading">
+                <h4>Then narrow your results by...</h4>
+            </div>
+            <div class="form-container">
+                <div class="form-labels">
+                    <div class="form-label">
+                        <label>language:</label>
+                    </div>
+                    <div class="form-label">
+                        <label>region:</label>
+                    </div>
+                    <div class="form-label">
+                        <label>last update:</label>
+                    </div>
+                    <div class="form-label">
+                        <label>site or domain:</label>
+                    </div>
+                    <div class="form-label">
+                        <label>terms appearing:</label>
+                    </div>
+                    <div class="form-label">
+                        <label>SafeSearch:</label>
+                    </div>
+                    <div class="form-label">
+                        <label>file type:</label>
+                    </div>
+                    <div class="form-label">
+                        <label>usage rights:</label>
+                    </div>
+                </div>
+                <div class="form-searchbars">
+                    <div>
+                        <select class="form-select">
+                            <option value="" disabled selected hidden>any language</option>
+                        </select>              
+                    </div>
+                    <div>
+                        <select class="form-select">
+                            <option value="" disabled selected hidden>any region</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select class="form-select">
+                            <option value="" disabled selected hidden>anytime</option>
+                        </select>
+                    </div>
+                    <div>
+                        <div>
+                            <input class="form-searchbar" type="text" name="as_q">
+                        </div>
+                    </div>
+                    <div>
+                        <select class="form-select">
+                            <option value="" disabled selected hidden>anywhere in the page</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select class="form-select">
+                            <option value="" disabled selected hidden>Show explicit results</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select class="form-select">
+                            <option value="" disabled selected hidden>any format</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select class="form-select">
+                            <option value="" disabled selected hidden>not filtered by license</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="advanced-search-button-wrapper">
+                <input type="submit" value="Advanced Search" class="advanced-search-button">
+            </div> 
+            <div class="line"></div>
+        </div>
+
+
+
 </body>
 </html>

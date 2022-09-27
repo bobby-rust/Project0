@@ -27,12 +27,38 @@
 }
 
 .search-bar {
-    width: 580px;
-    height: 40px;
+    width: 500px;
+    height: 42px;
     border: 0.5px solid;
-    border-radius: 25px;
+    border-radius: 30px;
     border-color: rgba(0, 0, 0, 0.1);
-    /* transform: translateX(-10px); */    
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.image-text {
+    color:#4285f4;
+    font:16px/16px roboto-regular, arial, sans-serif;
+    position:absolute;
+    left: 841px;
+    bottom:0;
+    white-space:nowrap;
+
+}
+
+.images-logo {
+    max-height:100%;
+    max-width:100%;
+    object-fit:contain;
+    object-position:center bottom;
+    width:auto;
+}
+
+.logo-wrapper {
+    position: relative;
+    max-height: 92px;
+    margin-bottom: 20px;
+
 }
 
 .search-bar:hover {
@@ -44,10 +70,11 @@
 }
 
 svg {
-    display: inline;
     height: 20px;
     width: 20px;
-    transform: translate(40px, 6px);
+    transform: translate(40px, 7px);
+    align-items: center;
+    padding-top: 6px;
 }
 
 .search-button-wrapper {
@@ -74,4 +101,164 @@ img {
 
 .search-button:hover {
     border: 1px solid rgb(212, 212, 212)
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.line {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-left: -15px;
+    padding-left: -15px;
+    /* margin-top: 10px; */
+}
+
+
+.advanced-logo {
+    content: url(https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg);
+    display: inline-block;
+    height: 24px;
+    width: 74px;
+}
+
+.logo-left {
+    float: left;
+    justify-content: left;
+    display: inline;
+    margin-top: 1px;
+    margin-left: -4px;
+
+    
+}
+
+.form-container-top {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    grid-template-rows: 2fr 0.1fr;
+    height: 290px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.form-container {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    grid-template-rows: 2fr 0.1fr;
+    height: 300px;
+    width: 100%;
+}
+
+.form-searchbars-small {
+    width: 100%;
+}
+
+.form-searchbar-small {
+    width: 222px;
+    height: 25px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+}
+
+.form-searchbar {
+    height: 25px;
+    width: 500px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+}
+
+.form-select {
+    height: 30px;
+    width: 505px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    background-color: #f5f5f5;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    border-radius: 2px;
+    border: 1px solid #dcdcdc;
+    color: #444;
+    font-weight: bold;
+    font-size: 11px;
+    outline: none;
+}
+
+.form-label {
+    margin-bottom: 25px;
+    font-size: 13px;
+    font-weight: 50;
+}
+
+.find-pages-with {
+    margin-bottom: 35px;
+}
+
+.form-labels {
+    margin-top: 3px;
+    
+}
+
+.to {
+    margin: 0px 15px;
+    font-size: 14px;
+}
+
+body {
+    height: 200vh;
+    font-family: arial, sans-serif;
+}
+
+.line-middle {
+    margin-bottom: 40px;
+}
+
+.advanced-heading-text {
+    margin-top: 29px;
+    margin-left: 37px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #d93025;
+    margin-bottom: 25px;
+}
+
+.advanced-header-wrapper {
+    margin: 20px;
+}
+
+.advanced-form {
+    margin: 40px;
+}
+
+.subheading {
+    font-weight: 100;
+}
+h4 {
+    font-weight: 100;
+}
+
+.advanced-search-button {
+    border: 1px solid #3079ed;
+    height: 35px;
+    width: 135px;
+    margin: 10px 5px;
+    border-radius: 2px;
+    background-color: #4d90fe;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+}
+
+.advanced-search-button-wrapper {
+    display: block;
+    width: 100%;
+    margin: 40px;
+    margin-left: 605px;
 }
