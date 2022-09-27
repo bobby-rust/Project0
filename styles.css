@@ -43,7 +43,6 @@
     left: 841px;
     bottom:0;
     white-space:nowrap;
-
 }
 
 .images-logo {
@@ -116,7 +115,6 @@ img {
     padding-left: -15px;
     /* margin-top: 10px; */
 }
-
 
 .advanced-logo {
     content: url(https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg);
@@ -236,6 +234,7 @@ body {
 .subheading {
     font-weight: 100;
 }
+
 h4 {
     font-weight: 100;
 }
